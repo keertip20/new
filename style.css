@@ -1,0 +1,209 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap'); */
+
+/* @import url(/assets/DynaPuff/DynaPuff-VariableFont_wdth\,wght.ttf);
+@import url(/assets/DynaPuff/OFL.txt);
+
+@import url(/assets/DynaPuff/static/DynaPuff/DynaPuff-Bold.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff/DynaPuff-Medium.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff/DynaPuff-Regular.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff/DynaPuff-SemiBold.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_Condensed/DynaPuff_Condensed-Bold.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_Condensed/DynaPuff_Condensed-Medium.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_Condensed/DynaPuff_Condensed-Regular.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_Condensed/DynaPuff_Condensed-SemiBold.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_SemiCondensed/DynaPuff_SemiCondensed-Bold.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_SemiCondensed/DynaPuff_SemiCondensed-Medium.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_SemiCondensed/DynaPuff_SemiCondensed-Regular.ttf);
+@import url(/assets/DynaPuff/static/DynaPuff_SemiCondensed/DynaPuff_SemiCondensed-SemiBold.ttf); */
+
+
+@font-face {
+    font-family:  'DynaPuff';
+    src: url("../assets/DynaPuff/DynaPuff-VariableFont_wdth\,wght.ttf");
+    
+}
+/* @font-face {
+    font-family: 'chicagoflfregular';
+    src: url('../assets/@font-face/1a243397695904f6f56e490ffd77a9cb.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  } */
+
+body{
+    font-family: 'DynaPuff', cursive;
+    /* background-image: url(https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?w=1480&t=st=1660910022~exp=1660910622~hmac=f2957f039dce0bf693e681b6a6b844d3a16d9ce5b3f84b39f1fb3a6d065bb17b); */
+}
+
+p.dotted{
+    border-style:dotted ;
+}
+p.dashed{
+    border-style: dashed;
+}
+p.solid{
+    border-style: solid;
+}
+p.double{
+    border-style: double;
+}
+p.groove{
+    border-style: groove;
+}
+p.ridge{
+    border-style: ridge;
+}
+p.insed{
+    border-style: inset;
+}
+p.outset{
+    border-style: outset;
+}
+a.new:link{
+    color: palevioletred;
+}
+a:hover{
+    color: brown;
+}
+.circle{
+    list-style-type: circle;    
+}
+.square{
+    list-style-type: square;
+}
+.other{
+    list-style-type: georgian;
+}
+.classA{
+    list-style-type: lower-alpha;
+}
+.classB{
+    list-style-type: lower-roman;
+}
+.classC{
+    list-style-type: upper-roman;
+}
+.imgicon{
+    list-style-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjI81nP8rqmhspzT2qRsAsDiFipkaLphv4UOxE2GI&s);
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    align-content: center;
+    padding-left: 90px;
+}
+.inside{
+    list-style-position: inside;
+}
+.outside{
+    list-style-position: outside;
+}
+
+ol.pink{
+    background-color: pink;
+    padding: 20px;
+    margin: 20px;
+}
+ol.pink li{
+    background-color: rgb(249, 214, 233);
+    padding: 5px;
+}
+ul.blue{
+    background-color:blue;
+    padding: 20px;
+    margin: 20px;
+}
+ul.blue li{
+    background-color: rgb(93, 100, 232);
+    padding: 5px;
+    margin: 2px;
+}
+table,th,td{
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px;
+
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:hover {
+background-color:coral ;
+
+}
+/* tr:nth-child(odd){
+    background-color:gray;
+
+} */
+
+.visibility{
+    visibility: hidden;
+}
+.display{
+    display: none;
+}
+.color{
+    margin-top: 30px;
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.google{
+    align-items: center; 
+    background-color: yellow;
+    padding: 30px;
+    color: black;
+    width: 30px;
+    margin: auto;
+    outline: #4CAF50 solid 10px;
+}
+.google:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+.width{
+    border: 3px solid #4CAF50;
+    width: 700px;
+    margin: auto;
+
+}
+.maxwidth{
+    border: 3px solid #4CAF50;
+    max-width: 700px;
+    margin: auto;
+
+}
+.static{
+    border: 2px solid rebeccapurple;
+    position: static;
+}
+.relative{
+    border: 2px solid rgb(28, 5, 130);
+    position: relative;
+}
+.fixed{
+    border: 2px solid rgb(213, 99, 38);
+    position: fixed;
+}
+.absolute{
+    border: 2px solid rgb(222, 12, 173);
+    position: absolute;
+}
+.sticky{
+    border: 2px solid rgb(51, 153, 59);
+    position: sticky;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+.justify{
+    text-align: justify;
+}
+.ex1 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  img.baseline{
+    vertical-align: baseline;
+  }
+  img.text-top{
+    vertical-align: text-top;
+  }
+  img.text-bottom{
+    vertical-align: text-bottom;
+  }
+  img.sub{
+    vertical-align: sub;
+  }
+  img.super{
+    vertical-align: super;
+  }
+  .overline{
+    text-decoration-line:overline ;
+    text-decoration-color:green ;
+  }
+  .line-through{
+    text-decoration-line: line-through;
+    text-decoration-color:red ;
+  } 
+  .underline{
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+  }
+  .uppercase{
+    text-transform: uppercase;
+  }
+  .lowercase{
+    text-transform: lowercase;
+  }
+  .capitalize{
+    text-transform: capitalize;
+  }
+  .indent{
+    text-indent: 50px;
+  }
+  .shadow{
+    text-shadow: 2px 2px 5px red;
+  }
+  .dark-shadow{
+    color: white;
+    text-shadow: 0 0 2px black, 2px 2px 4px blue;
+  }

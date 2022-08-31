@@ -1,0 +1,90 @@
+.container {
+    position: relative;
+}
+
+.blackbox {
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.greenbox {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(108, 163, 25);
+    height: 100px;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+}
+
+.greybox {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(176, 170, 170);
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.overflow{
+    background-color: aqua;
+    width: 200px;
+    height: 65px;
+    border: 1px solid  black;
+    overflow-x:scroll;
+
+}
+.divall{
+    float:left;
+    padding: 15px;
+    color: white;
+}
+
+.div1{
+    background-color: red;
+}
+
+.div2{
+    background-color: black;
+}
+.div3{
+    background-color: blue;
+}
+.divA{
+    padding: 10px;
+    clear: left;
+    border: 2px solid greenyellow;
+}
+.divB{
+    padding: 10px;
+   float: left;
+    border: 2px solid red
+}
+.divC{
+    padding: 10px;
+    float: left;
+    border: 2px solid greenyellow;
+}
+.divD{
+    padding: 10px;
+    
+    border: 2px solid red;
+    clear: left;
+}
+.clearfixDiv{
+    border: 3px solid black;
+    padding: 5px;
+}
+.img1{
+    float: right;
+    height: 170px;
+    width: 170px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

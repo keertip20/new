@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form autocomplete="on" action="/action_page.php">
+        <label for="fname"> First Name</label><br>
+        <input id="fname" type="text" value="john"><br>
+        <label for="lname"> Last Name</label><br>
+        <input id="lname" type="text" value="Doe"><br>
+
+        <br>
+        <h2>choose your favorite web language</h2>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="html">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="js" name="fav_language" value="html">
+        <label for="js">JavaScript</label><br>
+
+        <h4>Checkbox</h4>
+
+        <input type="checkbox" id="cycle" name="v1" value="cycle" target="blank">
+        <label for="cycle">Cycle</label><br>
+        <input type="checkbox" id="bike" name="v1" value="bike">
+        <label for="bike">Bike</label><br>
+        <input type="checkbox" id="car" name="v1" value="car">
+        <label for="car">Car</label><br>
+
+
+
+        <h2>select the color of your car</h2>
+        <label for="select">Color name</label>
+        <select id="select" name="color">
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="black" selected>Black</option>
+            <option value="grey">Grey</option>
+        </select><br>
+        <br>
+        <h4>textarea</h4>
+
+        <textarea name="message" rows="10" cols="30">
+Kids are playing in the garden
+</textarea><br>
+
+        <h3>Fieldset and legend</h3>
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="name" value="jone">
+        </fieldset><br>
+        <h4>drop down</h4>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+
+        <h4>Input type color</h4>
+
+        <label for="favcolor">Select your favorite color</label>
+        <input type="color" id="favcolor" name="favcolor"><br>
+
+        <h4>enter date</h4>
+        <label for="birthday">birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+
+
+        <label for="datemin">enter date after 2000-1-1</label>
+        <input type="date" id="datemin" name="datemin" min="2000-1-1">
+        <br>
+        <lable for="birthdaytime">Birthday(date and time)</lable>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="file">Select a file:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="quantity">quantity(1 to 5)</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+
+        <h3>readonly, disabled, size, required, range</h3>
+        <input type="text" id="fname" value="john" disabled><br><br>
+        <input type="text" id="name2" value="petter" readonly><br><br>
+        <input type="text" id="text" size="50" placeholder="enter your words in less then 20 alphabets"><br><br>
+        <input type="password" max="10" placeholder="password" required><br><br>
+        <input type="range" name="range" min="0" max="100"><br><br>
+        <input type="number" name="num" min="0" max="100" step="10" value="30"><br><br>
+        <label for="gserch">search google</label>
+        <input type="search" id="gsearch" name="gserch"><br><br>
+
+
+        <h3>input list, select</h3>
+        <input list="browser" name="browser">
+        <datalist id="browser">
+            <option value="internet explorer">
+            <option value="Firefox">
+            <option value="chrome">
+        </datalist><br><br>
+
+        <label for="car">choose the car</label>
+        <select id="car" name="car">
+            <option value="volvo">volvo</option>
+            <option value="saab">saab</option>
+            <option value="fait">fait</option>
+            <option value="audi">audi</option>
+        </select>
+
+
+        <br><br>
+
+        <button type="button" onclick="alert('check before submit')">click me</button>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>

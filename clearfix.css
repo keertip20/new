@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.grid{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.grid1{
+ float: left;
+ width: 50%;
+ height: 300px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li:hover{
+    background-color: #111;
+
+}
+.active{
+    background-color: red;
+}
+.inline{
+    display: inline;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue; 
+}
+.inline-block{
+    display: inline-block;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue; 
+}.block{
+    display:block;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue; 
+}
+.center{
+    margin: auto;
+    width: 30%;
+    border: 3px solid green;
+    padding: 10px;
+}
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+/* div p{
+    color:blue;
+} */
+/* div>p{
+    color: red;
+} */
+/* div+p{
+    color: chocolate;
+} */
+/* div~p{
+    color: teal;
+} */
+.highlight:hover{
+
+    color: red;
+    font-size: 30px;
+
+}
+.psuedo::first-line{
+    color: red;
+}
+.startPsuedo::before{
+    content: url(https://media.istockphoto.com/vectors/smiling-emoticon-with-smiling-eyes-vector-id496261720?k=20&m=496261720&s=612x612&w=0&h=kf1IOBy3lZkQe3uEJSpO1bFUWWz_9hOHIO5PcSFysds=);
+    
+}
+
+
+
+
+
+.img1{
+    
+    width: 350px;
+
+}
+
+
+.opacity1:hover{
+    opacity:.8;
+}
+.opacity2:hover{
+    opacity:.5;
+}
+.opacity3:hover{
+    opacity:.2;
+}
